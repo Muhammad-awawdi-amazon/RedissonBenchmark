@@ -1,0 +1,155 @@
+Using CATALINA_BASE:   /home/ubuntu/tomcat
+Using CATALINA_HOME:   /home/ubuntu/tomcat
+Using CATALINA_TMPDIR: /home/ubuntu/tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-17-openjdk-amd64
+Using CLASSPATH:       /home/ubuntu/tomcat/bin/bootstrap.jar:/home/ubuntu/tomcat/bin/tomcat-juli.jar
+Using CATALINA_OPTS:      --add-opens=java.base/java.math=ALL-UNNAMED   --add-opens=java.base/java.net=ALL-UNNAMED   --add-opens=java.base/java.text=ALL-UNNAMED   --add-opens=java.base/java.lang=ALL-UNNAMED   --add-opens=java.base/java.io=ALL-UNNAMED   --add-opens=java.base/java.util=ALL-UNNAMED   --add-opens=java.base/java.util.concurrent=ALL-UNNAMED   --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED   --add-opens=java.sql/java.sql=ALL-UNNAMED
+05-Jan-2025 11:07:24.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.25
+05-Jan-2025 11:07:24.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 14 2024 19:31:59 UTC
+05-Jan-2025 11:07:24.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.25.0
+05-Jan-2025 11:07:24.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Jan-2025 11:07:24.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1021-aws
+05-Jan-2025 11:07:24.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2025 11:07:24.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+05-Jan-2025 11:07:24.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.13+11-Ubuntu-2ubuntu124.04
+05-Jan-2025 11:07:24.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+05-Jan-2025 11:07:24.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ubuntu/tomcat
+05-Jan-2025 11:07:24.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ubuntu/tomcat
+05-Jan-2025 11:07:24.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ubuntu/tomcat/conf/logging.properties
+05-Jan-2025 11:07:24.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2025 11:07:24.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2025 11:07:24.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2025 11:07:24.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Jan-2025 11:07:24.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2025 11:07:24.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2025 11:07:24.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2025 11:07:24.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2025 11:07:24.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2025 11:07:24.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.math=ALL-UNNAMED
+05-Jan-2025 11:07:24.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.net=ALL-UNNAMED
+05-Jan-2025 11:07:24.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.text=ALL-UNNAMED
+05-Jan-2025 11:07:24.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2025 11:07:24.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2025 11:07:24.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2025 11:07:24.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2025 11:07:24.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2025 11:07:24.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.sql/java.sql=ALL-UNNAMED
+05-Jan-2025 11:07:24.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ubuntu/tomcat
+05-Jan-2025 11:07:24.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ubuntu/tomcat
+05-Jan-2025 11:07:24.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ubuntu/tomcat/temp
+05-Jan-2025 11:07:24.592 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+05-Jan-2025 11:07:24.882 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jan-2025 11:07:24.915 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [544] milliseconds
+05-Jan-2025 11:07:24.954 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2025 11:07:24.954 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.25]
+05-Jan-2025 11:07:24.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/tomcat/webapps/ROOT]
+05-Jan-2025 11:07:26.895 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[main] INFO org.redisson.cluster.ClusterConnectionManager - Redis cluster nodes configuration got from clustercfg.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com/192.0.9.6:6379:
+8fa42de64b6a1cc179545457f1139c363152f7c3 mawawdi-tomcat-redisson-test-0001-001.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 master - 0 1736075246235 0 connected 0-8191
+99990d02feb5c7c638a0764a24ae1dfb66da354d mawawdi-tomcat-redisson-test-0002-003.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 870c5407117d36dd9b1fbeae7189706b9a41b155 0 1736075244000 3 connected
+77eee9ca9f537c9cacb4bab294cb63fc94d7acac mawawdi-tomcat-redisson-test-0001-003.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 8fa42de64b6a1cc179545457f1139c363152f7c3 0 1736075247241 0 connected
+8f420495cfde7f604c3f1b69f7051bf3eebfbeec mawawdi-tomcat-redisson-test-0002-002.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 870c5407117d36dd9b1fbeae7189706b9a41b155 0 1736075245000 3 connected
+870c5407117d36dd9b1fbeae7189706b9a41b155 mawawdi-tomcat-redisson-test-0002-001.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 myself,master - 0 1736075245000 3 connected 8192-16383
+8df3f507743b71ad6963a76e315950c4ab298343 mawawdi-tomcat-redisson-test-0001-002.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 8fa42de64b6a1cc179545457f1139c363152f7c3 1736075248206 1736075245229 0 connected
+
+[redisson-netty-1-12] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.9.6/192.0.9.6:6379
+[redisson-netty-1-13] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.19.178/192.0.19.178:6379
+[redisson-netty-1-2] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.132.126/192.0.132.126:6379
+[redisson-netty-1-7] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.130.8/192.0.130.8:6379
+[redisson-netty-1-10] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.43.240/192.0.43.240:6379
+[redisson-netty-1-9] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.27.215/192.0.27.215:6379
+[redisson-netty-1-14] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.19.178/192.0.19.178:6379
+[redisson-netty-1-13] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.132.126/192.0.132.126:6379
+[redisson-netty-1-13] INFO org.redisson.cluster.ClusterConnectionManager - slaves: [rediss://192.0.132.126:6379, rediss://192.0.19.178:6379] added for master: rediss://192.0.9.6:6379 slot ranges: [[8192-16383]]
+[redisson-netty-1-13] INFO org.redisson.cluster.ClusterConnectionManager - master: rediss://192.0.9.6:6379 added for slot ranges: [[8192-16383]]
+[redisson-netty-1-11] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.27.215/192.0.27.215:6379
+[redisson-netty-1-1] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.43.240/192.0.43.240:6379
+[redisson-netty-1-1] INFO org.redisson.cluster.ClusterConnectionManager - slaves: [rediss://192.0.27.215:6379, rediss://192.0.43.240:6379] added for master: rediss://192.0.130.8:6379 slot ranges: [[0-8191]]
+[redisson-netty-1-1] INFO org.redisson.cluster.ClusterConnectionManager - master: rediss://192.0.130.8:6379 added for slot ranges: [[0-8191]]
+05-Jan-2025 11:07:29.715 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/tomcat/webapps/ROOT] has finished in [4,751] ms
+05-Jan-2025 11:07:29.715 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/tomcat/webapps/manager]
+05-Jan-2025 11:07:30.842 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2025 11:07:30.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/tomcat/webapps/manager] has finished in [1,135] ms
+05-Jan-2025 11:07:30.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/tomcat/webapps/host-manager]
+05-Jan-2025 11:07:31.845 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2025 11:07:31.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/tomcat/webapps/host-manager] has finished in [997] ms
+05-Jan-2025 11:07:31.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/tomcat/webapps/examples]
+05-Jan-2025 11:07:33.099 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[main] INFO org.redisson.cluster.ClusterConnectionManager - Redis cluster nodes configuration got from clustercfg.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com/192.0.27.215:6379:
+8f420495cfde7f604c3f1b69f7051bf3eebfbeec mawawdi-tomcat-redisson-test-0002-002.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 870c5407117d36dd9b1fbeae7189706b9a41b155 0 1736075251946 3 connected
+870c5407117d36dd9b1fbeae7189706b9a41b155 mawawdi-tomcat-redisson-test-0002-001.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 master - 0 1736075252956 3 connected 8192-16383
+77eee9ca9f537c9cacb4bab294cb63fc94d7acac mawawdi-tomcat-redisson-test-0001-003.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 myself,slave 8fa42de64b6a1cc179545457f1139c363152f7c3 0 1736075251000 0 connected
+8df3f507743b71ad6963a76e315950c4ab298343 mawawdi-tomcat-redisson-test-0001-002.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 8fa42de64b6a1cc179545457f1139c363152f7c3 0 1736075251000 0 connected
+99990d02feb5c7c638a0764a24ae1dfb66da354d mawawdi-tomcat-redisson-test-0002-003.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 870c5407117d36dd9b1fbeae7189706b9a41b155 0 1736075250000 3 connected
+8fa42de64b6a1cc179545457f1139c363152f7c3 mawawdi-tomcat-redisson-test-0001-001.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 master - 0 1736075250943 0 connected 0-8191
+
+[redisson-netty-5-4] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.9.6/192.0.9.6:6379
+[redisson-netty-5-15] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.19.178/192.0.19.178:6379
+[redisson-netty-5-5] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.132.126/192.0.132.126:6379
+[redisson-netty-5-6] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.130.8/192.0.130.8:6379
+[redisson-netty-5-6] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.27.215/192.0.27.215:6379
+[redisson-netty-5-7] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.43.240/192.0.43.240:6379
+[redisson-netty-5-3] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.19.178/192.0.19.178:6379
+[redisson-netty-5-6] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.27.215/192.0.27.215:6379
+[redisson-netty-5-9] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.132.126/192.0.132.126:6379
+[redisson-netty-5-9] INFO org.redisson.cluster.ClusterConnectionManager - slaves: [rediss://192.0.19.178:6379, rediss://192.0.132.126:6379] added for master: rediss://192.0.9.6:6379 slot ranges: [[8192-16383]]
+[redisson-netty-5-9] INFO org.redisson.cluster.ClusterConnectionManager - master: rediss://192.0.9.6:6379 added for slot ranges: [[8192-16383]]
+[redisson-netty-5-3] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.43.240/192.0.43.240:6379
+[redisson-netty-5-3] INFO org.redisson.cluster.ClusterConnectionManager - slaves: [rediss://192.0.27.215:6379, rediss://192.0.43.240:6379] added for master: rediss://192.0.130.8:6379 slot ranges: [[0-8191]]
+[redisson-netty-5-3] INFO org.redisson.cluster.ClusterConnectionManager - master: rediss://192.0.130.8:6379 added for slot ranges: [[0-8191]]
+05-Jan-2025 11:07:34.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/tomcat/webapps/examples] has finished in [2,343] ms
+05-Jan-2025 11:07:34.192 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ubuntu/tomcat/webapps/docs]
+05-Jan-2025 11:07:35.117 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[main] INFO org.redisson.cluster.ClusterConnectionManager - Redis cluster nodes configuration got from clustercfg.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com/192.0.27.215:6379:
+8f420495cfde7f604c3f1b69f7051bf3eebfbeec mawawdi-tomcat-redisson-test-0002-002.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 870c5407117d36dd9b1fbeae7189706b9a41b155 0 1736075254966 3 connected
+870c5407117d36dd9b1fbeae7189706b9a41b155 mawawdi-tomcat-redisson-test-0002-001.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 master - 0 1736075253000 3 connected 8192-16383
+77eee9ca9f537c9cacb4bab294cb63fc94d7acac mawawdi-tomcat-redisson-test-0001-003.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 myself,slave 8fa42de64b6a1cc179545457f1139c363152f7c3 0 1736075252000 0 connected
+8df3f507743b71ad6963a76e315950c4ab298343 mawawdi-tomcat-redisson-test-0001-002.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 8fa42de64b6a1cc179545457f1139c363152f7c3 0 1736075253000 0 connected
+99990d02feb5c7c638a0764a24ae1dfb66da354d mawawdi-tomcat-redisson-test-0002-003.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 870c5407117d36dd9b1fbeae7189706b9a41b155 0 1736075253000 3 connected
+8fa42de64b6a1cc179545457f1139c363152f7c3 mawawdi-tomcat-redisson-test-0001-001.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 master - 0 1736075254000 0 connected 0-8191
+
+[redisson-netty-8-8] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.9.6/192.0.9.6:6379
+[redisson-netty-8-1] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.130.8/192.0.130.8:6379
+[redisson-netty-8-2] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.19.178/192.0.19.178:6379
+[redisson-netty-8-15] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.132.126/192.0.132.126:6379
+[redisson-netty-8-1] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.43.240/192.0.43.240:6379
+[redisson-netty-8-2] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.27.215/192.0.27.215:6379
+[redisson-netty-8-9] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.27.215/192.0.27.215:6379
+[redisson-netty-8-10] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.19.178/192.0.19.178:6379
+[redisson-netty-8-1] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.132.126/192.0.132.126:6379
+[redisson-netty-8-1] INFO org.redisson.cluster.ClusterConnectionManager - slaves: [rediss://192.0.19.178:6379, rediss://192.0.132.126:6379] added for master: rediss://192.0.9.6:6379 slot ranges: [[8192-16383]]
+[redisson-netty-8-1] INFO org.redisson.cluster.ClusterConnectionManager - master: rediss://192.0.9.6:6379 added for slot ranges: [[8192-16383]]
+[redisson-netty-8-3] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.43.240/192.0.43.240:6379
+[redisson-netty-8-3] INFO org.redisson.cluster.ClusterConnectionManager - slaves: [rediss://192.0.27.215:6379, rediss://192.0.43.240:6379] added for master: rediss://192.0.130.8:6379 slot ranges: [[0-8191]]
+[redisson-netty-8-3] INFO org.redisson.cluster.ClusterConnectionManager - master: rediss://192.0.130.8:6379 added for slot ranges: [[0-8191]]
+05-Jan-2025 11:07:36.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ubuntu/tomcat/webapps/docs] has finished in [1,928] ms
+05-Jan-2025 11:07:36.124 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jan-2025 11:07:36.134 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11218] milliseconds
+[http-nio-8080-exec-1] ERROR org.redisson.config.Config - JSON configuration is deprecated and will be removed in future!
+[http-nio-8080-exec-1] ERROR org.redisson.config.Config - JSON configuration is deprecated and will be removed in future!
+[http-nio-8080-exec-1] INFO org.redisson.cluster.ClusterConnectionManager - Redis cluster nodes configuration got from clustercfg.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com/192.0.130.8:6379:
+8df3f507743b71ad6963a76e315950c4ab298343 mawawdi-tomcat-redisson-test-0001-002.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 8fa42de64b6a1cc179545457f1139c363152f7c3 0 1736075280000 0 connected
+870c5407117d36dd9b1fbeae7189706b9a41b155 mawawdi-tomcat-redisson-test-0002-001.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 master - 0 1736075280960 3 connected 8192-16383
+77eee9ca9f537c9cacb4bab294cb63fc94d7acac mawawdi-tomcat-redisson-test-0001-003.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 8fa42de64b6a1cc179545457f1139c363152f7c3 0 1736075278945 0 connected
+8f420495cfde7f604c3f1b69f7051bf3eebfbeec mawawdi-tomcat-redisson-test-0002-002.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 870c5407117d36dd9b1fbeae7189706b9a41b155 0 1736075278000 3 connected
+8fa42de64b6a1cc179545457f1139c363152f7c3 mawawdi-tomcat-redisson-test-0001-001.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 myself,master - 0 1736075279000 0 connected 0-8191
+99990d02feb5c7c638a0764a24ae1dfb66da354d mawawdi-tomcat-redisson-test-0002-003.mawawdi-tomcat-redisson-test.nra7gl.use1.cache.amazonaws.com:6379@1122 slave 870c5407117d36dd9b1fbeae7189706b9a41b155 0 1736075279000 3 connected
+
+[redisson-netty-11-3] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.9.6/192.0.9.6:6379
+[redisson-netty-11-11] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.130.8/192.0.130.8:6379
+[redisson-netty-11-8] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.19.178/192.0.19.178:6379
+[redisson-netty-11-9] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.132.126/192.0.132.126:6379
+[redisson-netty-11-11] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.27.215/192.0.27.215:6379
+[redisson-netty-11-2] INFO org.redisson.connection.ConnectionsHolder - 1 connections initialized for 192.0.43.240/192.0.43.240:6379
+[redisson-netty-11-4] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.19.178/192.0.19.178:6379
+[redisson-netty-11-7] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.132.126/192.0.132.126:6379
+[redisson-netty-11-7] INFO org.redisson.cluster.ClusterConnectionManager - slaves: [rediss://192.0.19.178:6379, rediss://192.0.132.126:6379] added for master: rediss://192.0.9.6:6379 slot ranges: [[8192-16383]]
+[redisson-netty-11-7] INFO org.redisson.cluster.ClusterConnectionManager - master: rediss://192.0.9.6:6379 added for slot ranges: [[8192-16383]]
+[redisson-netty-11-10] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.27.215/192.0.27.215:6379
+[redisson-netty-11-1] INFO org.redisson.connection.ConnectionsHolder - 24 connections initialized for 192.0.43.240/192.0.43.240:6379
+[redisson-netty-11-1] INFO org.redisson.cluster.ClusterConnectionManager - slaves: [rediss://192.0.43.240:6379, rediss://192.0.27.215:6379] added for master: rediss://192.0.130.8:6379 slot ranges: [[0-8191]]
+[redisson-netty-11-1] INFO org.redisson.cluster.ClusterConnectionManager - master: rediss://192.0.130.8:6379 added for slot ranges: [[0-8191]]
+05-Jan-2025 11:22:57.267 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jan-2025 11:22:57.269 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jan-2025 11:23:05.439 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jan-2025 11:23:05.452 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
